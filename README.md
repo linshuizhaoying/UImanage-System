@@ -20,7 +20,8 @@ redis-server
 
 ## 截图
 
-![imgn](http://haoqiao.qiniudn.com/uimanage8291.gif)
+[博客文章](http://haoqiao.me/2016/06/18/build-uimanage-system.html)
+
 
 ![imgn](http://haoqiao.qiniudn.com/912.gif)
 
