@@ -20,5 +20,5 @@ redis-server
 
 ## 截图
 
-![imgn](http://haoqiao.qiniudn.com/uimanage91.gif)
+![imgn](http://haoqiao.qiniudn.com/912.gif)
 
