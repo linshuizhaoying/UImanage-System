@@ -1,0 +1,201 @@
+#codeModal {
+  background-image: linear-gradient(to left, #525252 , #3d72b4);
+  background-size: auto 100%;
+  font: normal 300 13px/16px Lato;
+}
+#codeModal {
+/*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 500px;
+  margin-left: 5%;
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.5);*/
+    position: absolute;
+    z-index: 15;
+    cursor: pointer;
+    top: 100px;
+/*    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
+    width: 800px;
+    height: 620px;
+    margin-left: 5%;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#codeModal .ModalGroup{
+  margin-left: 35px;
+}
+#codeModal .Modal {
+  display: inline-block;
+  margin-left: 3%; 
+  margin-top: 15px;
+}
+#codeModal textarea {
+  font-size: 16px;
+  color: white;
+  height: 200px;
+  width: 206px;
+  overflow: hidden;
+  display: inline-block;
+  background:transparent;
+  border-top-style:none;
+  border-bottom-style:none;
+  border-color: white;
+  outline:none;
+  resize:none;
+}
+.code-nav {
+  margin: 20px 40px;
+}
+.code-nav li {
+  float: left;
+  width: 33%;
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.code-nav a {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  padding-bottom: 20px;
+  display: block;
+}
+.code-nav .active-code-nav {
+  border-bottom: 1px solid white;
+}
+.code-nav .active-code-nav a {
+  color: white;
+}
+
+.modal-controls {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 20px 40px;
+}
+.modal-controls ul {
+  float: right;
+}
+.modal-controls li {
+  float: left;
+  padding: 15px 20px;
+}
+.modal-controls a {
+  color: rgba(255, 255, 255, 0.5);
+  display: block;
+  font-size: 14px;
+}
+.modal-controls p {
+  float: left;
+  line-height: 46px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.fade-out {
+  transition: .5s opacity linear;
+  opacity: 0 !important;
+}
+.basiccreateDemo{
+  display: inline-block;
+  height: 200px;
+  width: 206px;
+  border: 1px solid white;
+}
+
+a, a > span {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  line-height: 24px;
+}
+a:before, a:after, a > span:before, a > span:after {
+  content: '';
+  position: absolute;
+  transition: transform .5s ease;
+}
+.effect-5 {
+  display: inline-block;
+  overflow: hidden;
+}
+.effect-5:before, .effect-5:after {
+  right: 0;
+  bottom: 0;
+  background: #0883a4;
+}
+.effect-5:before {
+  width: 100%;
+  height: 2px;
+  transform: translateX(-100%);
+}
+.effect-5:after {
+  width: 2px;
+  height: 100%;
+  transform: translateY(100%);
+}
+.effect-5 > span {
+  display: block;
+  padding: 10px;
+}
+.effect-5 > span:before, .effect-5 > span:after {
+  left: 0;
+  top: 0;
+  background: #0883a4;
+}
+.effect-5 > span:before {
+  width: 100%;
+  height: 2px;
+  transform: translateX(100%);
+}
+.effect-5 > span:after {
+  width: 2px;
+  height: 100%;
+  transform: translateY(-100%);
+}
+.effect-5:hover:before, .effect-5:hover:after, .effect-5:hover > span:before, .effect-5:hover > span:after {
+  transform: translate(0, 0);
+}
+
+input {
+  margin: 40px 25px;
+  width: 400px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -400px 0;
+  background-size: 400px 100%;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 24px;
+}
+input:focus, input:valid {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+input:focus::-webkit-input-placeholder, input:valid::-webkit-input-placeholder {
+  color: #1abc9c;
+  font-size: 11px;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  visibility: visible !important;
+}
+input::-webkit-input-placeholder{
+  font-family: 'roboto', sans-serif;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.uiName,.uiDesc{
+  margin-left: 15px;
+}
+.CodeMirror {
+    height: 200px!important;
+    width: 206px!important;
+}

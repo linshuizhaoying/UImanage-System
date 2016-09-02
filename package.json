@@ -1,0 +1,46 @@
+{
+  "name": "ez-vue",
+  "version": "0.0.1",
+  "description": "True easy vue scsffold",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack",
+    "product": "webpack --config webpack-production.config.js -p",
+    "dev": "webpack-dev-server --hot --inline --quiet"
+  },
+  "author": "sunny",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.5",
+    "node-libs-browser": "^0.5.3",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "strip-loader": "^0.1.0",
+    "style-loader": "^0.13.0",
+    "vue": "^1.0.10",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^7.0.0",
+    "webpack": "^1.12.8",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "dependencies": {
+    "autoprefixer-core": "^6.0.1",
+    "autoprefixer-loader": "^3.1.0",
+    "es6-promise": "^3.1.2",
+    "express": "^4.13.4",
+    "fastclick": "^1.0.6",
+    "lancer-css": "0.0.5",
+    "reqwest": "^2.0.5",
+    "vue-material-ui": "0.0.19",
+    "vue-router": "^0.7.7",
+    "vuex": "^0.4.1"
+  }
+}
